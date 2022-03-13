@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 1vw;
+    background-image: url("./assets/mentalist.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100vh;
+    height: 100vh;
+    margin: 50px auto;
+  }
+  
+  h1 {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur (10px);
+    -webkit-backdrop-filter: blur (10px);
+    font-size: 70px;
+    padding-top: 15px; 
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 85vh;
+    border: solid 2px #ff0000;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    margin-top: 20px;
+    background-color: red;
+    font-size: 20px;
+    color: black;
+   }
+
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+ 
+  input {
+    margin: 50px;
+    padding: 9px;
+    border-radius: 7px;
+  }
+  
+  button {
+    width: 120px;
+    height: 50px;
+    background: #ff0000;
+    color: white;
+    font-size: 18px;
+    border: solid 1px #fffafa;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .resultado {
+    text-align: center;
+    margin-top: 16px;
+    color: white;
+  
+  }
+  .page-logo {
+    text-align: center;
+    width: 300px;
+  }
+  
+ 
